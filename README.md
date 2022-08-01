@@ -1,5 +1,7 @@
 # goreleaser-test
 
+https://goreleaser.com/quick-start/
+
 # check gorealeaser.yaml config
 goreleaser check
 
@@ -11,6 +13,9 @@ export token ..
 
 git tag -a v1.0.0 -m "Release message"
 
-git push master v1.0.0
+git push origin main v1.0.0
+
+goreleaser release
+
 
 
